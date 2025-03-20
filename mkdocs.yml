@@ -53,12 +53,12 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+            # extra:
+            #   social:
+            #     - icon: simple/youtube
+            #       link: https://youtube.com/@james-willett
+            #     - icon: simple/linkedin
+            #       link: https://linkedin.com/in/willettjames
 
-extra: #footer elements [not working atm]
-  social:
-    - icon: simple/youtube
-      link: https://youtube.com/@james-willett
-    - icon: simple/linkedin
-      link: https://linkedin.com/in/willettjames
 
-copyright: Copyright &copy; 2024 James Willett
+copyright: Copyright &copy; 2025 Titus and Timothy
