@@ -16,24 +16,23 @@ This documentation is designed to be used with the following assumptions:
 - Working knowledge of Python - you are expected to be able to make a basic program.
 - User have a good standing Discord account - the good standing is required to access more feature for Discord API.
 - User is using a Windows Operating System.
-- 
   
 ## Task Overview
 Here are the following tasks that our guide will help walk you through:
 
 - Make a discord bot
 - Start simple discord bot program
--  
+-
 
 ## Conventions
 
 - Images will be annotated with red boxes to highlight key information to pay attentions
-- All steps will be numbered sequentially
-- code will be displayed in code blocks to view with note explain
+- code will be displayed in code blocks to view with notes explain
     below:
     ```
     [insert code here].
     ```
+    a. [insert note for code].
 
 ## Messages and Notes
 
