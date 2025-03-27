@@ -32,7 +32,7 @@ Here are the following tasks that our guide will help walk you through:
     ```
     [insert code here].
     ```
-    a. [insert note for code].
+    - [insert note for code].
 
 ## Messages and Notes
 
