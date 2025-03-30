@@ -20,9 +20,9 @@ This documentation is designed to be used with the following assumptions:
 ## Task Overview
 Here are the following tasks that our guide will help walk you through:
 
-- Make a discord bot
-- Start simple discord bot program
--
+- Create a discord bot
+- How to add a discord bot
+- Make a reminder for user
 
 ## Conventions
 
