@@ -1,22 +1,15 @@
-Example python code
+# Setting up a discord bot
+In this section we will show how to create a discord bot and install need packages for your prefer IDE
 
-```py title="add_numbers.py" linenums="1"
-# Function to add two numbers
-def add_two_numbers(num1, num2):
-    return num1 + num2
+## Creating a Discord bot
+!!! warning "Prerequisite" 
+    You will need to have discord account  if do not have one you make an account [`here`](https://discord.com/register)
+  
+1. Go to [`Discord Developer Page`](https://discord.com/developers/applications)
 
-# Example usage
-result = add_two_numbers(5, 3)
-print('The sum is:', result)
-```
+<br>
 
-```js title="code-examples.js" linenums="1" hl_lines="2-4"
-// Function to concatenate two strings
-function concatenateStrings(str1, str2) {
-  return str1 + str2;
-}
+2. Make a application top-right of the page:
+[insert Image]
 
-// Example usage
-const result = concatenateStrings('Hello, ', 'World!');
-console.log('The concatenated string is:', result);
-```
+3. 
