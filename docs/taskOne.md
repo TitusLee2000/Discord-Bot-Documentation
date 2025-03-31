@@ -16,7 +16,7 @@ In this section we will show how to create a discord bot and install need packag
 
     - After creation you will be in the bot interface you can focus on the left side of the screen select the `Bot` tab 
 
-    <img src="../assets/taskone/taskone_p2.png" alt="Discord Bot Tab" width="250" height="350">
+    <img src="../assets/taskone/taskone_p2.png" alt="Discord Bot Tab" width="200" height="300">
 
     !!! info "Customization"
 
@@ -74,7 +74,7 @@ Next we will start up the new porject in VSCode
 
     3. install python from Microsoft store
 
-        <img src="../assets/taskone/taskone_p5.png" alt="Python Extension" width="250" height="350">
+        <img src="../assets/taskone/taskone_p5.png" alt="Python Extension" width="200" height="300">
 
 4. Time to start python Virtual Environment
 
