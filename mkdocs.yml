@@ -2,15 +2,6 @@ site_name: Discord Bot Documentation
 site_url: http://sitename.example
 theme:
   name: material
-features: 
-  - content.code.copy
-  - navigation.sections
-  - navigation.top
-  - toc.integrate
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/TitusLee2000
   font:
     text: Merriweather Sans
     code: Red Hat Mono
@@ -19,6 +10,10 @@ extra:
   # favicon: assets/__.ico
   features:
     - navigation.footer
+    - content.code.copy
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
   palette:
     # Dark Mode
     - scheme: slate
