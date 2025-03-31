@@ -10,13 +10,13 @@ In this section we will show how to create a discord bot and install need packag
 
 2. Make a Application Top-Right of The Page:
     
-    [insert Image]
+    ![Image](./assets/taskone/taskone_p1.png "Python Extension")
 
 3. Customise Your Discord Bot
 
     - After creation you will be in the bot interface you can focus on the left side of the screen select the `Bot` tab 
 
-    [Insert image]
+    ![Image](./assets/taskone/taskone_p2.png "Python Extension")
 
     !!! info "Customization"
 
@@ -27,7 +27,7 @@ In this section we will show how to create a discord bot and install need packag
 
     For this Demo you will select from the following image:
 
-    [insert image]
+    ![Image](./assets/taskone/taskone_p3.png "Python Extension")
 
     1. Presence Intent
     2. Server Members Intent 
@@ -37,7 +37,7 @@ In this section we will show how to create a discord bot and install need packag
     
     - You have click on the blue button `Reset Token`
 
-    [insert image]
+    ![Image](./assets/taskone/taskone_p4.png "Python Extension")
 
 
     !!! warning Protect Your Token
@@ -73,7 +73,7 @@ Next we will start up the new porject in VSCode
 
     3. install python from Microsoft store
 
-        ![Image](assets\taskone\taskone_p5.png "Python Extension")
+        ![Image](./assets/taskone/taskone_p5.png "Python Extension")
 
 4. Time to start python Virtual Environment
 
@@ -90,7 +90,7 @@ Next we will start up the new porject in VSCode
         ```
     3. Select the option `Create Virtual Environment`
 
-        [insert image]
+        ![Image](./assets/taskone/taskone_p6.png "Python Extension")
 
     4. Select `Venv` option
     
@@ -98,7 +98,7 @@ Next we will start up the new porject in VSCode
 
     !!! success install complete
         now you will a new folder show up in your directory
-        [insert image]
+        ![Image](./assets/taskone/taskone_p7.png "Python Extension")
 
 5. Install important packages
 
