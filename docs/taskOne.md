@@ -121,10 +121,10 @@ Next we will start up the new porject in VSCode
 
 By the end of this section, you will successfully learned the following:
 
-- ✓ How to create a Discord Bot
+- [x] How to create a Discord Bot
 
 - [x] How to setup your IDE for Python
 
-Great job 🤗. You can go ahead and click on the link below to move on to the next step:
+Great job. You can go ahead and click on the link below to move on to the next step:
 
 **[Adding Discord Bot to server](taskTwo.md)**
