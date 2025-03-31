@@ -8,8 +8,6 @@ In this section we will show how to create a discord bot and install need packag
   
 1. Go to [`Discord Developer Page`](https://discord.com/developers/applications)
 
-<br>
-
 2. Make a Application Top-Right of The Page:
     
     [insert Image]
