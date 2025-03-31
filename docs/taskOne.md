@@ -98,7 +98,7 @@ Next we will start up the new porject in VSCode
     5. select your latest version python in the options
 
     !!! success install complete
-        now you will a new folder show up in your directory
+        now you will see a new folder show up in your directory
         <br>
         <img src="../assets/taskone/taskone_p7.png" alt="Venv folder" width="200">
 
