@@ -61,17 +61,19 @@ Next we will start up the new porject in VSCode
 
 2. Open folder within VSCode
 
-    [insert image]
-
 3. Install python extension 
 
-    1. Select the extension tab on the right
+    1. Open exetension tab with the following:
 
-    [insert image]
+        ```
+        ctrl + shift + x
+        ```
 
     2. search for python
 
     3. install python from Microsoft store
+
+        ![Image](\docs\assets\taskone\taskone_p5.png "Python Extension")
 
 4. Time to start python Virtual Environment
 
