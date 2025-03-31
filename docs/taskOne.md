@@ -27,7 +27,7 @@ In this section we will show how to create a discord bot and install need packag
 
     For this Demo you will select from the following image:
 
-    <img src="./assets/taskone/taskone_p3.png" alt="Discord Bot intent" width="300">
+    <img src="./assets/taskone/taskone_p3.png" alt="Discord Bot intent" width="300" height="200">
 
     1. Presence Intent
     2. Server Members Intent 
