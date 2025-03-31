@@ -2,7 +2,11 @@ site_name: Discord Bot Documentation
 site_url: http://sitename.example
 theme:
   name: material
-
+features: 
+  - content.code.copy
+  - navigation.sections
+  - navigation.top
+  - toc.integrate
 extra:
   social:
     - icon: fontawesome/brands/github
