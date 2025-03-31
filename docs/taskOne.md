@@ -10,13 +10,13 @@ In this section we will show how to create a discord bot and install need packag
 
 2. Make a Application Top-Right of The Page:
     
-    ![Image](./assets/taskone/taskone_p1.png "Python Extension")
+    ![Image](./assets/taskone/taskone_p1.png "Discord Bot Application")
 
 3. Customise Your Discord Bot
 
     - After creation you will be in the bot interface you can focus on the left side of the screen select the `Bot` tab 
 
-    ![Image](./assets/taskone/taskone_p2.png "Python Extension")
+    ![Image](./assets/taskone/taskone_p2.png "Bot Tab")
 
     !!! info "Customization"
 
@@ -27,7 +27,7 @@ In this section we will show how to create a discord bot and install need packag
 
     For this Demo you will select from the following image:
 
-    ![Image](./assets/taskone/taskone_p3.png "Python Extension")
+    ![Image](./assets/taskone/taskone_p3.png "Discord Bot intent")
 
     1. Presence Intent
     2. Server Members Intent 
@@ -35,10 +35,11 @@ In this section we will show how to create a discord bot and install need packag
 
 5. Create Discord bot's token
     
-    - You have click on the blue button `Reset Token`
+    1. You have click on the blue button `Reset Token`
 
-    ![Image](./assets/taskone/taskone_p4.png "Python Extension")
+    ![Image](./assets/taskone/taskone_p4.png "Discord Bot")
 
+    2. Now save your token so you can remember
 
     !!! warning Protect Your Token
 
@@ -98,6 +99,7 @@ Next we will start up the new porject in VSCode
 
     !!! success install complete
         now you will a new folder show up in your directory
+        <br>
         ![Image](./assets/taskone/taskone_p7.png "Python Extension")
 
 5. Install important packages
