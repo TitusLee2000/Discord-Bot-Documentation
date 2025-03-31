@@ -52,12 +52,12 @@ In this section we will show how to create a discord bot and install need packag
     At this point, you have successfully create A discord bot
 
 
-## Setting Up VSCode
+## Setting Up Python for VSCode
 
 Next we will start up the new porject in VSCode
 
 !!! info "VSCode"
-    refers to
+    refers to Visual Studio Code
 
 1. Make a new folder within a desired location
 
@@ -65,4 +65,52 @@ Next we will start up the new porject in VSCode
 
     [insert image]
 
-3. 
+3. Install python extension 
+
+    1. Select the extension tab on the right
+
+    [insert image]
+
+    2. search for python
+
+    3. install python from Microsoft store
+
+4. Time to start python Virtual Environment
+
+    1. use `ctrl + shift + p` at the same time
+        
+        ```
+        ctrl + shift + p
+        ```
+
+    2. Type the following:
+
+        ```
+        Python:Select Interpreter
+        ```
+    3. Select the option `Create Virtual Environment`
+
+        [insert image]
+
+    4. Select `Venv` option
+    
+    5. select your latest version python in the options
+
+    !!! success install complete
+        now you will a new folder show up in your directory
+        [insert image]
+
+5. Install important packages
+
+    1. make a new terminal by the following:
+        ```
+        ctrl + shift + `
+        ```
+    2. use the following command to install Discord package
+
+        ```
+        pip install discord.py
+        ```
+
+!!! success Completed Setup
+    Now you are ready for the next step
