@@ -30,7 +30,8 @@ theme:
         name: Light mode
       primary: blue
       accent: deep orange
-
+  icon:
+    repo: fontawesome/brands/git-alt
 markdown_extensions:
   # emoji library for markdown file
   - attr_list
@@ -56,6 +57,8 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.keys
   - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
   #Tabs
   - pymdownx.tabbed:
       alternate_style: true
