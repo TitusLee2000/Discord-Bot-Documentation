@@ -30,6 +30,10 @@ theme:
 markdown_extensions:
   # emoji library for markdown file
   - attr_list
+  - footnotes
+  - admonition
+  - codehilite
+  - def_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -41,6 +45,13 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.keys
+  - pymdownx.details
   #Tabs
   - pymdownx.tabbed:
       alternate_style: true
