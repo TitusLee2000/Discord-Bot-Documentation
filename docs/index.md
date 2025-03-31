@@ -29,9 +29,9 @@ Here are the following tasks that our guide will help walk you through:
 - Images will be annotated with red boxes to highlight key information to pay attentions
 - code will be displayed in code blocks to view with notes explain
     below:
-```
-[insert code here]
 
+```{ .js .annotate }
+[insert code here]
 ```
 
 
