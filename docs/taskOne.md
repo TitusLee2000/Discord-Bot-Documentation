@@ -62,3 +62,7 @@ Next we will start up the new porject in VSCode
 1. Make a new folder within a desired location
 
 2. Open folder within VSCode
+
+    [insert image]
+
+3. 
