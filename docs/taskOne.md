@@ -27,7 +27,7 @@ In this section we will show how to create a discord bot and install need packag
 
     For this Demo you will select from the following image:
 
-    ![Image](./assets/taskone/taskone_p3.png "Discord Bot intent")
+    <img src="./assets/taskone/taskone_p3.png" alt="Discord Bot intent" width="300">
 
     1. Presence Intent
     2. Server Members Intent 
@@ -91,7 +91,7 @@ Next we will start up the new porject in VSCode
         ```
     3. Select the option `Create Virtual Environment`
 
-        ![Image](./assets/taskone/taskone_p6.png "Python Extension")
+        ![Image](./assets/taskone/taskone_p6.png "Virtual Environment Selection")
 
     4. Select `Venv` option
     
@@ -100,7 +100,7 @@ Next we will start up the new porject in VSCode
     !!! success install complete
         now you will a new folder show up in your directory
         <br>
-        ![Image](./assets/taskone/taskone_p7.png "Python Extension")
+        <img src="./assets/taskone/taskone_p7.png" alt="Venv folder" width="300">
 
 5. Install important packages
 
