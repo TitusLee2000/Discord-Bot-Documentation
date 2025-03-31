@@ -2,6 +2,11 @@ site_name: Discord Bot Documentation
 site_url: http://sitename.example
 theme:
   name: material
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/TitusLee2000
   font:
     text: Merriweather Sans
     code: Red Hat Mono
@@ -70,6 +75,8 @@ markdown_extensions:
             #       link: https://youtube.com/@james-willett
             #     - icon: simple/linkedin
             #       link: https://linkedin.com/in/willettjames
+
+
 
 
 copyright: Copyright &copy; 2025 Titus and Timothy
