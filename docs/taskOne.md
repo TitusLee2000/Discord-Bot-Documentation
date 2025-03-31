@@ -73,7 +73,7 @@ Next we will start up the new porject in VSCode
 
     3. install python from Microsoft store
 
-        ![Image](\docs\assets\taskone\taskone_p5.png "Python Extension")
+        ![Image](assets\taskone\taskone_p5.png "Python Extension")
 
 4. Time to start python Virtual Environment
 
