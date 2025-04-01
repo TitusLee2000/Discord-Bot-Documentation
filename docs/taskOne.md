@@ -15,8 +15,9 @@ In this section we will show how to create a discord bot and install need packag
 3. Customise Your Discord Bot
 
     - After creation you will be in the bot interface you can focus on the left side of the screen select the `Bot` tab 
-
+    <div style="text-align: center;">
     <img src="../assets/taskone/taskone_p2.png" alt="Discord Bot Tab" width="200" height="300">
+    </div>
 
     !!! info "Customization"
 
@@ -27,7 +28,7 @@ In this section we will show how to create a discord bot and install need packag
 
     For this Demo you will select from the following image:
 
-    <img src="../assets/taskone/taskone_p3.png" alt="Discord Bot intent" width="500" height="500">
+    <img src="../assets/taskone/taskone_p3.png" alt="Discord Bot intent" width="950">
 
     1. Presence Intent
     2. Server Members Intent 
@@ -37,7 +38,7 @@ In this section we will show how to create a discord bot and install need packag
     
     1. You have click on the blue button `Reset Token`
 
-    <img src="../assets/taskone/taskone_p4.png" alt="Discord Bot" width="500" height="500">
+    <img src="../assets/taskone/taskone_p4.png" alt="Discord Bot" width="950">
 
     2. Now save your token so you can remember
 
@@ -73,16 +74,13 @@ Next we will start up the new porject in VSCode
     2. search for python
 
     3. install python from Microsoft store
-
-        <img src="../assets/taskone/taskone_p5.png" alt="Python Extension" width="200" height="300">
+    <div style="text-align: center;">
+    <img src="../assets/taskone/taskone_p5.png" alt="Python Extension" width="350" height= "100">
+    </div>
 
 4. Time to start python Virtual Environment
 
     1. use `ctrl + shift + p` at the same time
-        
-        ```
-        ctrl + shift + p
-        ```
 
     2. Type the following:
 
@@ -100,7 +98,7 @@ Next we will start up the new porject in VSCode
     !!! success install complete
         now you will see a new folder show up in your directory
         <br>
-        <img src="../assets/taskone/taskone_p7.png" alt="Venv folder" width="200">
+        <img src="../assets/taskone/taskone_p7.png" alt="Venv folder" width="350">
 
 5. Install important packages
 
