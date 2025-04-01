@@ -1,13 +1,24 @@
-!!! note "Title of the callout"
+# Make Discord Reminder Program
+[insert Overview]
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+1. 
 
-Collapsible callout:
+2. 
 
-??? info "Collapsible callout"
+3. 
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+4. 
+
+5. 
+
+6. 
+
+7. 
+
+8. 
+
+## Conclusion
+
+By the end of this section, you will successfully learned the following:
+
+- [x] How to create a Discord Bot Remainder Program
