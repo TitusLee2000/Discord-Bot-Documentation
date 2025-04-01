@@ -1,43 +1,64 @@
-## Content Tabs
+# Setting Up Discord Bot With a Server
+    [insert overview]
 
-This is some examples of content tabs.
+## Inviting Discord Bot To a Server
 
-### Generic Content
+1. 
+    [insert image]
 
-=== "Plain text"
+2. 
 
-    This is some plain text
+    [insert image]
 
-=== "Unordered list"
+3. 
 
-    * First item
-    * Second item
-    * Third item
+    [insert image]
 
-=== "Ordered list"
+    1.  
 
-    1. First item
-    2. Second item
-    3. Third item
+    [insert image]
 
-### Code Blocks in Content Tabs
+    2. 
 
-=== "Python"
+    [insert image]
 
-    ```py
-    def main():
-        print("Hello world!")
+    3. 
 
-    if __name__ == "__main__":
-        main()
-    ```
+    [insert image]
+4. 
 
-=== "JavaScript"
+5. 
 
-    ```js
-    function main() {
-        console.log("Hello world!");
-    }
+6. 
 
-    main();
-    ```
+## Testing if Bot Works in Server
+
+1. 
+
+2. 
+```
+[insert code]
+```
+
+3. 
+``` 
+[insert code]
+```
+4. 
+```
+[insert code]
+```
+
+!!! warning If token is invalid
+    The program crash on runtime
+
+5. 
+
+## Conclusion
+
+By the end of this section, you will successfully learned the following:
+
+- [x] How to invite a Discord Bot to your server
+
+- [x] How to test basic programs with you Discord Bot
+
