@@ -30,7 +30,7 @@ Here are the following tasks that our guide will help walk you through:
 - code will be displayed in code blocks to view with notes explain
     below:
 
-```{ .js .annotate }
+```
 [insert code here]
 ```
 
