@@ -11,25 +11,25 @@
 
 3. asd
 
-    ![Image](./assets/tasktwo/tasktwo_p2.png "Authio")
+    ![Image](./assets/tasktwo/tasktwo_p2.png "Discord Bot Authio URL generator")
 
 4. asd
 
-    ![Image](./assets/tasktwo/tasktwo_p3.png "Authio")
+    ![Image](./assets/tasktwo/tasktwo_p3.png "Discord Bot Permission")
 
 5. asd
 
-    ![Image](./assets/tasktwo/tasktwo_p4.png "Authio")
+    ![Image](./assets/tasktwo/tasktwo_p4.png "Bots Join Link")
 
 6. asd
 
 7. asd
 
-    ![Image](./assets/tasktwo/tasktwo_p5.png "Authio")
+    ![Image](./assets/tasktwo/tasktwo_p5.png "Join server")
 
 8. asd
 
-    ![Image](./assets/tasktwo/tasktwo_p6.png "Authio")
+    ![Image](./assets/tasktwo/tasktwo_p6.png "Server Member List")
 
 !!! success "Joined the server"
     Your Discord bot should now be visable in your selected server
@@ -86,7 +86,12 @@
     !!! warning "If token is invalid"
         The program crash on compile
 
-8. 
+8. asd
+
+    ![gif](./assets/tasktwo/Discord_bot_test.gif "Test Results")
+
+!!! success "Discord Bot's responds"
+    Now your Discord bot will respond to certain commands
 
 ## Conclusion
 
