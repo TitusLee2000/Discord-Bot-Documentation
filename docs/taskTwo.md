@@ -3,56 +3,90 @@
 
 ## Inviting Discord Bot To a Server
 
-1. 
-    [insert image]
+1. asd
 
-2. 
+    ![Image](./assets/tasktwo/tasktwo_p1.png "Authio")
 
-    [insert image]
+2. asd
 
-3. 
+3. asd
 
-    [insert image]
+    ![Image](./assets/tasktwo/tasktwo_p2.png "Authio")
 
-    1.  
+4. asd
 
-    [insert image]
+    ![Image](./assets/tasktwo/tasktwo_p3.png "Authio")
 
-    2. 
+5. asd
 
-    [insert image]
+    ![Image](./assets/tasktwo/tasktwo_p4.png "Authio")
 
-    3. 
+6. asd
 
-    [insert image]
-4. 
+7. asd
 
-5. 
+    ![Image](./assets/tasktwo/tasktwo_p5.png "Authio")
 
-6. 
+8. asd
+
+    ![Image](./assets/tasktwo/tasktwo_p6.png "Authio")
+
+!!! success "Joined the server"
+    Your Discord bot should now be visable in your selected server
+
 
 ## Testing if Bot Works in Server
 
-1. 
+1. asd
 
-2. 
-```
-[insert code]
-```
+2. asd
 
-3. 
-``` 
-[insert code]
-```
-4. 
-```
-[insert code]
-```
+    ```
+    import discord
+    from discord.ext import commands
+    ```
+
+3. asd
+
+    ``` 
+    bot = commands.Bot(command_prefix='!', intents=discord.Intents.default())
+    ```
+
+4. asd
+
+    ```
+    @bot.event
+    async def on_ready():
+        print(f'Logged in as {bot.user.name} ({bot.user.id})')
+        print('------')
+    ```
+
+5. asdad
+
+    ```
+    @bot.command()
+    async def ping(ctx):
+    await ctx.send('Pong!')
+    ```
+
+6. asda
+
+    ```
+    @bot.command()
+    async def hello(ctx):
+    await ctx.send(f'Hello, {ctx.author.mention}!')
+    ```
+
+7. asd
+
+    ```
+    bot.run('YOUR_TOKEN_HERE')
+    ```
 
 !!! warning If token is invalid
-    The program crash on runtime
+    The program crash on compile
 
-5. 
+8. 
 
 ## Conclusion
 
