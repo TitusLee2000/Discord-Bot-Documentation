@@ -49,7 +49,7 @@
 3. asd
 
     ``` 
-    bot = commands.Bot(command_prefix='!', intents=discord.Intents.default())
+    bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
     ```
 
 4. asd
