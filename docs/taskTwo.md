@@ -83,8 +83,8 @@
     bot.run('YOUR_TOKEN_HERE')
     ```
 
-!!! warning If token is invalid
-    The program crash on compile
+    !!! warning "If token is invalid"
+        The program crash on compile
 
 8. 
 
