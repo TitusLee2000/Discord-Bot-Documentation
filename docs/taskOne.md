@@ -20,7 +20,7 @@
     <img src="../assets/taskone/newApplication.png" alt="Discord Bot Tab" width="500" height="400">
 </div>
 
-3\. When promted by a name, enter the name of your bot. For our example we will call it Grockamolii.
+3\. When promted by a name, enter the name of your bot. For our example we will call it Grokamoly.
 
 4\. Accept the terms and coniditons
 
@@ -74,12 +74,13 @@ We've just changed our intention for our bot and it needs to be updated to let D
 <br>
 
 <div style="text-align: center;">
-<img src="../assets/taskone/token.png" alt="Discord Bot" width="600">
+    <img src="../assets/taskone/token.png" alt="Discord Bot" width="600">
 </div>
 
 ### Steps:
 
 1. Click on the 'Reset Token'
+
 2. Now save your token to update Discord of your changes
 
 !!! warning "Protect Your Token!"
@@ -102,13 +103,13 @@ Next lets set up our work station for coding our bot using VSCode.
 
 ### Steps:
 
-1. Create a folder on your desktop or your desired location and name it 'reminderBot'
+1. Create a folder on your desktop or your desired location and name it `reminderBot`
 
 1. Open VSCode
 
-1. Click on 'files' in the top left corner, naviagte to 'Open Folder', and browse to the folder you've just created. Then open it
+1. Click on 'files' in the top left corner, naviagte to 'Open Folder', and browse till you find our folder `reminderBot`. Then open it
 
-1. To install the Python extension click onf the extention icon on the left tab or use command `ctrl + shift + x`
+1. To install the Python extension click on the extention icon on the left tab or use command `ctrl + shift + x`
 
 ??? info "Python Extention"
 
