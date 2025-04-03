@@ -41,8 +41,10 @@
    <div style="text-align: center;">
       <img src="../assets/tasktwo/tasktwo_p6.png" alt="Server Member List">
    </div>
+
 !!! success "Joined the server"
-Your Discord bot should now be visable in your selected server
+
+    Your Discord bot should now be visable in your selected server
 
 ## Testing Your Discord Bot Works in Server
 
@@ -50,61 +52,80 @@ The following steps will all be inside one file
 
 ### Steps:
 
-1\. Make a `python.py` file in VSCode
+1. Make a Python file called `test.py` file in VSCode
 
-2\. Inside `python.py`, copy and paste the following code to set up important packages for our code
+2. Inside `test.py`, copy and paste the following code to set up important packages for our code
 
-```python
-import discord
-from discord.ext import commands
-```
+    ```py
+    import discord
+    from discord.ext import commands
+    ```
 
-3\. Initialize prefix for command in Discord server
+3. Initialize prefix for command in Discord server
 
-```py
-bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
-```
+    ```py
+    bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
+    ```
 
-4\. Add a code the displays a ready msg from the Discord bot in the terminal
+4. Add a code the displays a ready msg from the Discord bot in the terminal
 
-```py
-@bot.event
-async def on_ready():
-    print(f'Logged in as {bot.user.name} ({bot.user.id})')
-    print('------')
-```
+    ```py
+    @bot.event
+    async def on_ready():
+        print(f'Logged in as {bot.user.name} ({bot.user.id})')
+        print('------')
+    ```
 
-5\. Implement a simple command program when your Discord bot will reply with `Pong!`
+5. Implement a simple command program when your Discord bot will reply with `Pong!`
 
-```py
-@bot.command()
-async def ping(ctx):
-await ctx.send('Pong!')
-```
+    ```py
+    @bot.command()
+    async def ping(ctx):
+        await ctx.send('Pong!')
+    ```
 
-6\. Implement a simple program that will reply to the user with a `Hello, @user` and ping to.
+6. Implement a simple program that will reply to the user with a `Hello, @user` and ping to.
 
-```py
-@bot.command()
-async def hello(ctx):
-await ctx.send(f'Hello, {ctx.author.mention}!')
-```
+    ```py
+    @bot.command()
+    async def hello(ctx):
+        await ctx.send(f'Hello, {ctx.author.mention}!')
+    ```
 
-7\. Replace `YOUR_TOKEN_HERE` with your Discord bot's token to allow the bot to connect to discord server API
+7. Replace `YOUR_TOKEN_HERE` with your Discord bot's token to allow the bot to connect to discord server API
 
-```py
-bot.run('YOUR_TOKEN_HERE')
-```
+    ```py
+    bot.run('YOUR_TOKEN_HERE')
+    ```
 
-!!! warning "If token is invalid"
-The program crash on compile
+    !!! warning "If token is invalid"
+        
+        The program crash on compile
 
-8\. When you test it the result should look similar to this below:
+8. To run the program
 
-![gif](./assets/tasktwo/Discord_bot_test.gif 'Test Results')
+    <div style="text-align: center;">
+      <img src="../assets/tasktwo/run_python.py.png" alt="Run prompt">
+    </div>
+
+    ??? warning "Code doesn't not run!"
+
+        You can use this command to run the Python file with this below:
+
+        ```
+        py test.py
+        ```
+
+9. When you test it the result should look similar to this below:
+
+    <div style="text-align: center;">
+      <img src="../assets/tasktwo/Discord_bot_test.gif" alt="Test Results">
+    </div>
+
 
 !!! success "Discord Bot's responds"
-Now your Discord bot will respond to certain commands
+
+    Now your Discord bot will respond to certain commands
 
 ## Conclusion
 
