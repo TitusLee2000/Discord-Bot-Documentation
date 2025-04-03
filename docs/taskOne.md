@@ -1,126 +1,169 @@
 # Setting Up a Discord Bot
 
-**_In this section we will show how to create a discord bot and install required packages for your prefer IDE_**
+**_ In this section we will show how to create a discord bot and set up a IDE enviroment to help you start coding your bot _**
 
-## Creating a Discord Bot
+### **Creating a Discord Bot**
 
 !!! warning "Prerequisite"
 
     You will need to have discord account. If you do not have an account please follow the link [`here`](https://discord.com/register)
 
-1.  ### Go to [`Discord Developer Page`](https://discord.com/developers/applications)
+### Steps:
 
-2.  ### Create a new application at the Top-Right of The Page:
+1.  Go to [`Discord Developer Page`](https://discord.com/developers/applications)
 
-    ![Image](./assets/taskone/taskone_p1.png 'Discord Bot Application')
+2.  Create a 'New Application' at the top-right of the page:
 
-    - When promted by a name, enter the name of your bot. For our example we will call it Grockamolii.
-    - Accept the terms and coniditons
-    - Then press 'Create'
-    <div style="text-align: center;">
-        <img src="../assets/taskone/createApplication.png" alt="Discord Bot Tab" width="500" height="400">
-    </div>
+<br>
 
-3.  ### Customise Your Discord Bot
+<div style="text-align: center;">
+    <img src="../assets/taskone/newApplication.png" alt="Discord Bot Tab" width="500" height="400">
+</div>
 
-    - After creation you will be in the bot interface you can focus on the left side of the screen select the `Bot` tab
-    <div style="text-align: center;">
-    <img src="../assets/taskone/taskone_p2.png" alt="Discord Bot Tab" width="200" height="300">
-    </div>
+3\. When promted by a name, enter the name of your bot. For our example we will call it Grockamolii.
 
-    !!! info "Customization"
+4\. Accept the terms and coniditons
 
-        You can choose images that are appropriate if use is for public use.
+5\. Then press 'Create'
 
-4.  ### Select The Intent of Your Bot
+<div style="text-align: center;">
+    <img src="../assets/taskone/createApplication.png" alt="Discord Bot Tab" width="500" height="400">
+</div>
 
-    For this Demo you will select from the following image:
+---
 
-    <img src="../assets/taskone/taskone_p3.png" alt="Discord Bot intent" width="950">
+### **Customise Your Discord Bot**
 
-    1. Presence Intent
-    2. Server Members Intent
-    3. Message Content Intent
+Congraduations, you've now created a bot! Now lets bring it to life by navigating to the 'Bot' tab located on the left side side of the screen
 
-5.  ### Create Discord bot's token
+<div style="text-align: center;">
+<img src="../assets/taskone/taskone_p2.png" alt="Discord Bot Tab" width="200" height="300">
+</div>
 
-    1. You have click on the blue button `Reset Token`
+!!! info "Customization"
 
-    <img src="../assets/taskone/taskone_p4.png" alt="Discord Bot" width="950">
+    You can choose images that are appropriate if use is for public use.
 
-    2. Now save your token so you can remember
+---
 
-    !!! warning Protect Your Token
+### **Select The Intent of Your Bot**
 
-        Make sure to keep note of your token as it give access to your Bot's key to to connect to Discord's server
+The intent delarcation is a way to tell Discord what your bot can and cannot do.
+
+For this demo you will select from the following image:
+
+<div style="text-align: center;">
+<img src="../assets/taskone/botAbility.png" alt="Discord Bot intent" width="500">
+</div>
+### Steps: 
+- [x] Presence Intent
+- [x] Server Members Intent
+- [x] Message Content Intent
+- [x] Save Changes
+
+---
+
+### Create Discord bot's token
+
+??? info "Token"
+
+    The token is your bot's key to access Discord's API (Application Programing Interface). An API can be thought as a contract between how two devices communicate with each other using requests and respones.
+
+We've just changed our intention for our bot and it needs to be updated to let Discord know.
+
+<br>
+
+<div style="text-align: center;">
+<img src="../assets/taskone/token.png" alt="Discord Bot" width="600">
+</div>
+
+### Steps:
+
+1. Click on the 'Reset Token'
+2. Now save your token to update Discord of your changes
+
+!!! warning "Protect Your Token!"
+
+    Never share your token! Think of it as the key to your house. A token is a Bot's key to connect to Discord's server
 
 !!! success
 
-    At this point, you have successfully create A discord bot
+    At this point, you have successfully create a Discord bot!
 
-## Setting Up Python for VSCode
+---
 
-Next we will start up the new porject in VSCode
+## Setting Up Python in VSCode
+
+Next lets set up our work station for coding our bot using VSCode.
 
 !!! info "VSCode"
-refers to Visual Studio Code
 
-1. Make a new folder within a desired location
+    Visual Studio Code
 
-2. Open folder within VSCode
+### Steps:
 
-3. Install python extension
+1. Create a folder on your desktop or your desired location and name it 'reminderBot'
 
-   1. Open exetension tab with the following:
+1. Open VSCode
 
-      ```
-      ctrl + shift + x
-      ```
+1. Click on 'files' in the top left corner, naviagte to 'Open Folder', and browse to the folder you've just created. Then open it
 
-   2. search for python
+1. To install the Python extension click onf the extention icon on the left tab or use command `ctrl + shift + x`
 
-   3. install python from Microsoft store
+??? info "Python Extention"
+
+    We need to set up an environment to translate what we want to say into computer language. For our needs, we will be using Python. In VSCode, there are a number of extentions developers have made, and Python is one of them.
+
    <div style="text-align: center;">
-   <img src="../assets/taskone/taskone_p5.png" alt="Python Extension" width="350" height= "100">
-   </div>
+      <img src="../assets/taskone/extention.png" alt="Python Extension" width="350" height= "100">
+    </div>
 
-4. Time to start python Virtual Environment
+5\. At the top left, there should be a search bar. Look up Python
 
-   1. use `ctrl + shift + p` at the same time
+6\. Install Python from Microsoft store
 
-   2. Type the following:
+<div style="text-align: center;">
+    <img src="../assets/taskone/taskone_p5.png" alt="Python Extension" width="350" height= "100">
+</div>
 
-      ```
-      Python:Select Interpreter
-      ```
+Time to start Python Virtual
 
-   3. Select the option `Create Virtual Environment`
+1.  lets open the VSCode's command promt using `ctrl + shift + p`
 
-      ![Image](./assets/taskone/taskone_p6.png 'Virtual Environment Selection')
+2.  Type the following:
 
-   4. Select `Venv` option
+    ```
+    Python:Select Interpreter
+    ```
 
-   5. select your latest version python in the options
+3.  Select the option `Create Virtual Environment`
 
-   !!! success install complete
-   now you will see a new folder show up in your directory
-   <br>
-   <img src="../assets/taskone/taskone_p7.png" alt="Venv folder" width="350">
+    ![Image](./assets/taskone/taskone_p6.png 'Virtual Environment Selection')
 
-5. Install important packages
+4.  Select `Venv` option
 
-   1. make a new terminal by the following:
-      ```
-      ctrl + shift + `
-      ```
-   2. use the following command to install Discord package
+5.  select your latest version Python in the options
 
-      ```
-      pip install discord.py
-      ```
+!!! success install complete
+now you will see a new folder show up in your directory
+<br>
+<img src="../assets/taskone/taskone_p7.png" alt="Venv folder" width="350">
 
-!!! success Completed Setup
-Now you are ready for the next step
+6\. Install important packages
+
+- To shortcut to terminal use the command `ctrl + shift + ~ `
+
+- Use the following command to install Discord package
+
+  ```
+  pip install discord.py
+  ```
+
+!!! success "Completed Setup"
+
+    Now you are ready for the next step!
+
+---
 
 ## Conclusion
 
@@ -129,7 +172,3 @@ By the end of this section, you will successfully learned the following:
 - [x] How to create a Discord Bot
 
 - [x] How to setup your IDE for Python
-
-Great job. You can go ahead and click on the link below to move on to the next step:
-
-**[Adding Discord Bot to server](taskTwo.md)**
