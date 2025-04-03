@@ -2,6 +2,10 @@
 
 **_ In this section we will show how to create a discord bot and set up a IDE enviroment to help you start coding your bot _**
 
+??? info "What is an IDE?"
+
+    Integrated development environment (IDE) is a software application that helps programmers develop code more efficiently. There are many options to chose from in the market, but for this demonstration we will be using a free and popular IDE called VSCode
+
 ### **Creating a Discord Bot**
 
 !!! warning "Prerequisite"
@@ -12,9 +16,7 @@
 
 1.  Go to [`Discord Developer Page`](https://discord.com/developers/applications)
 
-2.  Create a 'New Application' at the top-right of the page:
-
-<br>
+2.  Let us create a new application by pressing 'New Application' at the top-right of the page:
 
 <div style="text-align: center;">
     <img src="../assets/taskone/newApplication.png" alt="Discord Bot Tab" width="500" height="400">
@@ -32,7 +34,7 @@
 
 ---
 
-### **Customise Your Discord Bot**
+### **Customize Your Discord Bot**
 
 Congraduations, you've now created a bot! Now lets bring it to life by navigating to the 'Bot' tab located on the left side side of the screen
 
@@ -55,7 +57,7 @@ For this demo you will select from the following image:
 <div style="text-align: center;">
 <img src="../assets/taskone/botAbility.png" alt="Discord Bot intent" width="500">
 </div>
-### Steps: 
+### Activate: 
 - [x] Presence Intent
 - [x] Server Members Intent
 - [x] Message Content Intent
@@ -71,17 +73,23 @@ For this demo you will select from the following image:
 
 We've just changed our intention for our bot and it needs to be updated to let Discord know.
 
-<br>
+### Steps:
+
+1\. Click on the 'Reset Token' to update Discord's record
 
 <div style="text-align: center;">
     <img src="../assets/taskone/token.png" alt="Discord Bot" width="600">
 </div>
 
-### Steps:
+2\. After resetting, there should be a token you can now copy. Save this token in a secure place where you can access it again later
 
-1. Click on the 'Reset Token'
+??? info "Lost or Forgotten Token"
 
-2. Now save your token to update Discord of your changes
+    If you forget to copy or have lost this key, don't panic. Simply repeat step one and a new token will be generated for you
+
+<div style="text-align: center;">
+    <img src="../assets/taskone/copyToken.png" alt="Discord Bot" width="600">
+</div>
 
 !!! warning "Protect Your Token!"
 
@@ -127,7 +135,13 @@ Next lets set up our work station for coding our bot using VSCode.
     <img src="../assets/taskone/taskone_p5.png" alt="Python Extension" width="350" height= "100">
 </div>
 
-Time to start Python Virtual
+---
+
+## Time to start Python Virtual
+
+We're almost finished the set up. The last step is to create a virual enviroment for the our code. This will help protect your system, prevent conflicts and to have multiple incompatible projects running on the same system without any issues by isolating this project dependencies.
+
+### Steps:
 
 1.  lets open the VSCode's command promt using `ctrl + shift + p`
 
@@ -137,18 +151,22 @@ Time to start Python Virtual
     Python:Select Interpreter
     ```
 
-3.  Select the option `Create Virtual Environment`
+3.  Select the option `Create Virtual Environment` It should be the first item
 
     ![Image](./assets/taskone/taskone_p6.png 'Virtual Environment Selection')
 
 4.  Select `Venv` option
 
-5.  select your latest version Python in the options
+5.  Select the latest version Python in the options
 
-!!! success install complete
-now you will see a new folder show up in your directory
+!!! success "Install complete"
+
+    You should now see see a new folder show up in your directory
+
 <br>
-<img src="../assets/taskone/taskone_p7.png" alt="Venv folder" width="350">
+<div style="text-align:center;">
+    <img src="../assets/taskone/taskone_p7.png" alt="Venv folder" width="350">
+</div>
 
 6\. Install important packages
 
