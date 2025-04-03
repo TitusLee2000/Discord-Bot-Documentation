@@ -1,11 +1,13 @@
-# Make Discord Reminder Program
-[insert Overview]
+# Setting Up Discord Bot Reminder Program
 
-1. asd 
+In this section, We will learn how to make reminder program with your Discord bot
 
-2. asd
+1. Make a new `Python` file  
+ 
 
-    ```
+2. Initialize imports for the `Python` file
+
+    ```py
     import discord
     from discord.ext import commands
     import asyncio
@@ -13,21 +15,144 @@
     import re
     ```
 
-3. asd
+3. Insert the code your Discord Bot to recogonize the command
 
+    ```py
+    intents = discord.Intents.all()
+    bot = commands.Bot(command_prefix='!', intents=intents)
     ```
+
+4. Create Help function to parse Time from commands
+
+    1. Define your function `parse_time` and it takes in the paramter `time_str`
+
+        ```py
+        def parse_time(time_str):
+            """Parse time input like '5m', '2h', '1d' or 'YYYY-MM-DD HH:MM'"""
+        ```
     
+    2. Insert a format checker to ensure time can be read correctly then find the differece fromo current time and desire time to be set 
+
+        ```py
+        def parse_time(time_str):
+            """Parse time input like '5m', '2h', '1d' or 'YYYY-MM-DD HH:MM'"""
+            for date_format in ('%Y-%m-%d %H:%M', '%Y-%m-%d %H:%M:%S'):
+                try:
+                    current_time = datetime.strptime(time_str.strip(), date_formate)
+                    seconds = (current_time - datetime.now()).total_seconds()
+                    return seconds
+                except ValueError:
+                    pass
+        ```
+    
+    3. Insert a regex checker if user wants timer from secs, mins, hours, or days 
+     
+        ```py
+        def parse_time(time_str):
+            """Parse time input like '5m', '2h', '1d' or 'YYYY-MM-DD HH:MM'"""
+            for date_format in ('%Y-%m-%d %H:%M', '%Y-%m-%d %H:%M:%S'):
+                try:
+                    current_time = datetime.strptime(time_str.strip(), date_formate)
+                    seconds = (current_time - datetime.now()).total_seconds()
+                    return seconds
+                except ValueError:
+                    pass
+            time_units = {'s': 1, 'm': 60, 'h': 3600, 'd': 86400} 
+            match = re.match(r'(\d+)([smhd])', time_str.lower()) 
+        ```
+    4. Add a if statement to determine if it is match return the time in seconds else print a error message
+
+        ```py
+        def parse_time(time_str):
+            """Parse time input like '5m', '2h', '1d' or 'YYYY-MM-DD HH:MM'"""
+            for date_format in ('%Y-%m-%d %H:%M', '%Y-%m-%d %H:%M:%S'):
+                try:
+                    current_time = datetime.strptime(time_str.strip(), date_formate)
+                    seconds = (current_time - datetime.now()).total_seconds()
+                    return seconds
+                except ValueError:
+                    pass
+            time_units = {'s': 1, 'm': 60, 'h': 3600, 'd': 86400} 
+            match = re.match(r'(\d+)([smhd])', time_str.lower())
+            if match:
+                amount, unit = match.groups()
+                return int(amount) * time_units[unit] 
+        ```
+
+5. Add program interface for Discord Bot
+
+    1. Define your function for `remind` with the parameter `ctx, time_str: str, *, message:str`
+
+        ```py
+        @bot.command()
+        async def remind(ctx, time_str: str, *, message: str):
+        """Set a reminder. Usage: !remind <time> <message> (e.g., !remind 5m Break or !remind "2025-04-03 14:30" Meeting)"""
+        ```
+
+    2. Add a code the replace `','` with `' '` so the `parse_time` function and operate on it 
+
+        ```py
+        @bot.command()
+        async def remind(ctx, time_str: str, *, message: str):
+        """Set a reminder. Usage: !remind <time> <message> (e.g., !remind 5m Break or !remind "2025-04-03 14:30" Meeting)"""
+        time_str = time_str.replace(',', ' ').strip()
+        ```       
+    3. Add checkers to see if is greater than 0 seconds and if reminder is a timer or a set time
+
+        ```py
+        @bot.command()
+        async def remind(ctx, time_str: str, *, message: str):
+        """Set a reminder. Usage: !remind <time> <message> (e.g., !remind 5m Break or !remind "2025-04-03 14:30" Meeting)"""
+        time_str = time_str.replace(',', ' ').strip()
+        try:
+            seconds = parse_time(time_str)
+            if seconds <= 0:
+                await ctx.send("Please set a reminder for a future time!")
+                return
+
+            # Adjust confirmation message based on input type
+            if ' ' in time_str:  # Absolute time
+                await ctx.send(f"Reminder set for '{message}' at {time_str}.")
+            else:  # Relative time
+                await ctx.send(f"Reminder set for '{message}' in {time_str}.")
+
+            await asyncio.sleep(seconds)
+            await ctx.send(f"{ctx.author.mention}, here's your reminder: {message}")        
+        ```
+    4. Add a error return message section to allow error display for user
+
+        ```py
+        @bot.command()
+        async def remind(ctx, time_str: str, *, message: str):
+        """Set a reminder. Usage: !remind <time> <message> (e.g., !remind 5m Break or !remind "2025-04-03 14:30" Meeting)"""
+        time_str = time_str.replace(',', ' ').strip()
+        try:
+            seconds = parse_time(time_str)
+            if seconds <= 0:
+                await ctx.send("Please set a reminder for a future time!")
+                return
+
+            # Adjust confirmation message based on input type
+            if ' ' in time_str:  # Absolute time
+                await ctx.send(f"Reminder set for '{message}' at {time_str}.")
+            else:  # Relative time
+                await ctx.send(f"Reminder set for '{message}' in {time_str}.")
+
+            await asyncio.sleep(seconds)
+            await ctx.send(f"{ctx.author.mention}, here's your reminder: {message}")       
+        except ValueError as e:
+            await ctx.send(f"Error: {str(e)}")             
+        ```
+
+6. Insert Your Discord Bot's Token
+
+    ```py
+    bot.run('Insert Token Here')
     ```
 
-4. asd
+7. Test within Discord server
 
-5. asd
-
-6. asd
-
-7. asd
-
-8. asd
+    ![gif](./assets/taskthree/Discord_reminder_program.gif "Reminder Program")
 
 ## Conclusion
 
