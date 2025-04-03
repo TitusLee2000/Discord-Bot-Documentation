@@ -5,11 +5,19 @@
 
 2. asd
 
-```
-
-```
+    ```
+    import discord
+    from discord.ext import commands
+    import asyncio
+    from datetime import datetime
+    import re
+    ```
 
 3. asd
+
+    ```
+    
+    ```
 
 4. asd
 
