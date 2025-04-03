@@ -1,6 +1,9 @@
 # Setting Up Discord Bot With a Server
 
-**_In this section, we will learn how to invite your Discord bot into your server of choice and test if your Discord bot is operational_**
+### _In this section, we will learn:_
+
+- [ ] How to invite your Discord bot into your server of choice and
+- [ ] Test if your Discord bot is operational
 
 ## Inviting Discord Bot To a Server
 
@@ -41,29 +44,52 @@
    <div style="text-align: center;">
       <img src="../assets/tasktwo/tasktwo_p6.png" alt="Server Member List">
    </div>
+
 !!! success "Joined the server"
-Your Discord bot should now be visable in your selected server
 
-## Testing Your Discord Bot Works in Server
+      Your Discord bot is now visable in your selected server
 
-The following steps will all be inside one file
+      - [x] How to invite your Discord bot into your server of choice and
+      - [ ] Test if your Discord bot is operational
+
+<br>
+
+---
+
+<br>
+
+## Testing Your Discord Bot Works In Your Server
+
+_The following steps will all be inside one file\*_
 
 ### Steps:
 
-1\. Make a `python.py` file in VSCode
+1\. First, in VSCode let us add a new file to our file and name it`python.py`. To do this, either click on the new file icon, or use the command `crtl + n` to create a new file
 
-2\. Inside `python.py`, copy and paste the following code to set up important packages for our code
+   <div style="text-align: center;">
+      <img src="../assets/tasktwo/newFile.png" alt="Server Member List">
+   </div>
+
+<br>
+
+### Copy the following code into your `python.py`:
+
+2\. Helps set up important packages we will need for this file
 
 ```python
 import discord
 from discord.ext import commands
 ```
 
+<br>
+
 3\. Initialize prefix for command in Discord server
 
 ```py
 bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
 ```
+
+<br>
 
 4\. Add a code the displays a ready msg from the Discord bot in the terminal
 
@@ -74,6 +100,8 @@ async def on_ready():
     print('------')
 ```
 
+<br>
+
 5\. Implement a simple command program when your Discord bot will reply with `Pong!`
 
 ```py
@@ -81,6 +109,8 @@ async def on_ready():
 async def ping(ctx):
 await ctx.send('Pong!')
 ```
+
+<br>
 
 6\. Implement a simple program that will reply to the user with a `Hello, @user` and ping to.
 
@@ -90,21 +120,31 @@ async def hello(ctx):
 await ctx.send(f'Hello, {ctx.author.mention}!')
 ```
 
+<br>
+
 7\. Replace `YOUR_TOKEN_HERE` with your Discord bot's token to allow the bot to connect to discord server API
 
 ```py
 bot.run('YOUR_TOKEN_HERE')
 ```
 
+<br>
+
 !!! warning "If token is invalid"
-The program crash on compile
+
+      The program crash on compile
 
 8\. When you test it the result should look similar to this below:
 
 ![gif](./assets/tasktwo/Discord_bot_test.gif 'Test Results')
 
 !!! success "Discord Bot's responds"
-Now your Discord bot will respond to certain commands
+
+      Now your Discord bot will respond to certain commands
+
+      - [x] How to invite a Discord Bot to your server
+
+      - [x] How to test basic programs with you Discord Bot
 
 ## Conclusion
 

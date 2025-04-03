@@ -1,6 +1,9 @@
 # Setting Up a Discord Bot
 
-**_ In this section we will show how to create a discord bot and set up a IDE enviroment to help you start coding your bot _**
+### _In this section we will show you:_
+
+- [ ] How to create a discord bot and
+- [ ] Set up a IDE enviroment to help you start coding your bot
 
 ??? info "What is an IDE?"
 
@@ -98,6 +101,9 @@ We've just changed our intention for our bot and it needs to be updated to let D
 !!! success
 
     At this point, you have successfully create a Discord bot!
+
+    - [x] How to create a Discord Bot
+    - [ ] How to setup your IDE for Python
 
 ---
 
