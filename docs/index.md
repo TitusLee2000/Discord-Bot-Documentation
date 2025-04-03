@@ -17,8 +17,9 @@ This documentation is designed to be used with the following assumptions:
 
 2.  **Good standing Discord account** | Good standing is required to access neccessary feature for this demonstration
 
-3.  **Windows Operating System** | Our instructions will be based off the Windows Operating System
+3.  **A server to add your bot to** | if you need help creating a server click [**here**](https://www.ionos.ca/digitalguide/server/know-how/how-to-set-up-a-discord-server/)
 
+4.  **Windows Operating System** | Our instructions will be based off the Windows Operating System
 
 ## Software Requirments
 
