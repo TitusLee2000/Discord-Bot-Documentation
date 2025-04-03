@@ -101,7 +101,7 @@ ___
             return int(amount) * time_units[unit]
     ```
 
-5.  Add program interface for Discord Bot
+5.  Add program interface for Discord Bot called `remind`
 
     1.  Define your function for `remind` with the parameter `ctx, time_str: str, *, message:str`
 

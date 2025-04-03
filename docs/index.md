@@ -19,6 +19,15 @@ This documentation is designed to be used with the following assumptions:
 
 3.  **Windows Operating System** | Our instructions will be based off the Windows Operating System
 
+
+## Software Requirments
+
+Before proceeding, ensure you have the following installed:
+
+- [**Python**](https://www.python.org/downloads/) 3.1x or later
+- [**Visual Studio Code**](https://code.visualstudio.com/download)
+- [**Discord**](https://discord.com/)
+
 ## Task Overview
 
 Here are the following tasks that our guide will help walk you through:
