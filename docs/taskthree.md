@@ -8,9 +8,16 @@
 
     This is the very last stage which gives Grokamoly a heart and a purpose! It is also the stage where the most coding is required, but don't be too overwhelmed. We recommend you to run through the steps once to get everything working and come back to examine what each function does. Best if you played around with it too. With that spirit at heart, the following documention lists out the purpose of each snipet as well as what you can and 'cannot' change.
 
+<br>
+___
+
+### Initialization of all required packages and values
+
 1. Using the same directory as `python.py`, make a new file called `reminder.py`
 
-2. Initialize imports for the `Python` file. <**Do Not Change**>
+2. Initialize imports for the `Python` file.
+
+   <**Do Not Change**>
 
    ```py
    import discord
@@ -22,6 +29,8 @@
 
 3\. Insert the code your Discord Bot to recogonize the command
 
+<**Do Not Change**>
+
 ```py
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix='!', intents=intents)
@@ -31,6 +40,10 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 ___
 
 ## Create helper function to parse Time from commands
+
+??? info "What are helper functions?"
+
+    Helper functions are ways programmers re-use code and to clean the main logic of the program by abstracting away the small details
 
 1.  Define your function `parse_time` and it takes in the paramter `time_str`
 
