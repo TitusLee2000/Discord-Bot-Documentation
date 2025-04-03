@@ -1,6 +1,9 @@
 # Setting Up Discord Bot With a Server
 
-**_In this section, we will learn how to invite your Discord bot into your server of choice and test if your Discord bot is operational_**
+### _In this section, we will learn:_
+
+- [ ] How to invite your Discord bot into your server of choice and
+- [ ] Test if your Discord bot is operational
 
 ## Inviting Discord Bot To a Server
 
@@ -45,28 +48,62 @@
 !!! success "Joined the server"
 
     Your Discord bot should now be visable in your selected server
+=======
+>>>>>>> cda12e29a77b8e1608b90103ad0b7e8d97794ef0
 
-## Testing Your Discord Bot Works in Server
+      Your Discord bot is now visable in your selected server
 
-The following steps will all be inside one file
+      - [x] How to invite your Discord bot into your server of choice and
+      - [ ] Test if your Discord bot is operational
+
+<br>
+
+---
+
+<br>
+
+## Testing Your Discord Bot Works In Your Server
+
+_The following steps will all be inside one file\*_
 
 ### Steps:
 
+<<<<<<< HEAD
 1. Make a Python file called `test.py` file in VSCode
 
 2. Inside `test.py`, copy and paste the following code to set up important packages for our code
+=======
+1\. First, in VSCode let us add a new file to our file and name it`python.py`. To do this, either click on the new file icon, or use the command `crtl + n` to create a new file
+
+   <div style="text-align: center;">
+      <img src="../assets/tasktwo/newFile.png" alt="Server Member List">
+   </div>
+
+<br>
+
+### Copy the following code into your `python.py`:
+
+2\. Helps set up important packages we will need for this file
+>>>>>>> cda12e29a77b8e1608b90103ad0b7e8d97794ef0
 
     ```py
     import discord
     from discord.ext import commands
     ```
 
+<<<<<<< HEAD
 3. Initialize prefix for command in Discord server
+=======
+<br>
+
+3\. Initialize prefix for command in Discord server
+>>>>>>> cda12e29a77b8e1608b90103ad0b7e8d97794ef0
 
     ```py
     bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
     ```
 
+<<<<<<< HEAD
 4. Add a code the displays a ready msg from the Discord bot in the terminal
 
     ```py
@@ -76,7 +113,13 @@ The following steps will all be inside one file
         print('------')
     ```
 
+<<<<<<< HEAD
 5. Implement a simple command program when your Discord bot will reply with `Pong!`
+=======
+<br>
+
+5\. Implement a simple command program when your Discord bot will reply with `Pong!`
+>>>>>>> cda12e29a77b8e1608b90103ad0b7e8d97794ef0
 
     ```py
     @bot.command()
@@ -84,7 +127,13 @@ The following steps will all be inside one file
         await ctx.send('Pong!')
     ```
 
+<<<<<<< HEAD
 6. Implement a simple program that will reply to the user with a `Hello, @user` and ping to.
+=======
+<br>
+
+6\. Implement a simple program that will reply to the user with a `Hello, @user` and ping to.
+>>>>>>> cda12e29a77b8e1608b90103ad0b7e8d97794ef0
 
     ```py
     @bot.command()
@@ -92,15 +141,29 @@ The following steps will all be inside one file
         await ctx.send(f'Hello, {ctx.author.mention}!')
     ```
 
+<<<<<<< HEAD
 7. Replace `YOUR_TOKEN_HERE` with your Discord bot's token to allow the bot to connect to discord server API
+=======
+<br>
+
+7\. Replace `YOUR_TOKEN_HERE` with your Discord bot's token to allow the bot to connect to discord server API
+>>>>>>> cda12e29a77b8e1608b90103ad0b7e8d97794ef0
 
     ```py
     bot.run('YOUR_TOKEN_HERE')
     ```
 
+<<<<<<< HEAD
     !!! warning "If token is invalid"
         
         The program crash on compile
+=======
+<br>
+
+!!! warning "If token is invalid"
+
+      The program crash on compile
+>>>>>>> cda12e29a77b8e1608b90103ad0b7e8d97794ef0
 
 8. To run the program
 
@@ -125,7 +188,15 @@ The following steps will all be inside one file
 
 !!! success "Discord Bot's responds"
 
+<<<<<<< HEAD
     Now your Discord bot will respond to certain commands
+=======
+      Now your Discord bot will respond to certain commands
+
+      - [x] How to invite a Discord Bot to your server
+
+      - [x] How to test basic programs with you Discord Bot
+>>>>>>> cda12e29a77b8e1608b90103ad0b7e8d97794ef0
 
 ## Conclusion
 
