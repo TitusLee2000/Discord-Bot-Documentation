@@ -22,26 +22,27 @@ To use Dicord's funcions and utility, we need to pull in their library
 
 1. Using the same directory as `python.py`, make a new file called `reminder.py`
 
+
 2. Initialize imports for the `Python` file.
 
-   <**Do Not Change**>
+    <**Do Not Change**>
 
-   ```py
-   import discord
-   from discord.ext import commands
-   import asyncio
-   from datetime import datetime
-   import re
-   ```
+    ```py
+    import discord
+    from discord.ext import commands
+    import asyncio
+    from datetime import datetime
+    import re
+    ```
 
-3\. Insert the code your Discord Bot to recogonize the command
+3. Insert the code your Discord Bot to recogonize the command
 
-<**Do Not Change**>
+    <**Do Not Change**>
 
-```py
-intents = discord.Intents.all()
-bot = commands.Bot(command_prefix='!', intents=intents)
-```
+    ```py
+    intents = discord.Intents.all()
+    bot = commands.Bot(command_prefix='!', intents=intents)
+    ```
 
 !!! success
 
@@ -260,7 +261,10 @@ Here is the main funcion of our program that brings everything things together
 
 ## Test within Discord server
 
-![gif](./assets/taskthree/Discord_reminder_program.gif 'Reminder Program')
+
+<div style="text-align: center;">
+    <img src="../assets/taskthree/Discord_reminder_program.gif" alt="Discord reminder program">
+</div>
 
 <br>
 
