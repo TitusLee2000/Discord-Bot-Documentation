@@ -7,49 +7,46 @@
 
 ## Inviting Discord Bot To a Server
 
-1\. From current page go to `OAUTH2` page from the left-side bar
+1. From current page go to `OAUTH2` page from the left-side bar
 
-<div style="text-align: center;">
-    <img src="../assets/tasktwo/tasktwo_p1.png" alt="Authio">
-</div>
+    <div style="text-align: center;">
+        <img src="../assets/tasktwo/tasktwo_p1.png" alt="Authio">
+    </div>
 
-2\. Under 'OAuth2 URL Generator' check the `bot` option
 
-   <div style="text-align: center;">
+2. Under 'OAuth2 URL Generator' check the `bot` option
+
+    <div style="text-align: center;">
       <img src="../assets/tasktwo/tasktwo_p2.png" alt="Discord Bot Authio URL generator">
-   </div>
+    </div>
 
-3\. Moving to 'BOT PERMISSIONS' check the `Administrator` option
+3. Moving to 'BOT PERMISSIONS' check the `Administrator` option
 
-   <div style="text-align: center;">
+    <div style="text-align: center;">
       <img src="../assets/tasktwo/tasktwo_p3.png" alt="Discord Bot Permission">
-   </div>
+    </div>
 
-4\. Find your generated URL for your bot and copy it
+4. Find your generated URL for your bot and copy it
 
-   <div style="text-align: center;">
+    <div style="text-align: center;">
       <img src="../assets/tasktwo/tasktwo_p4.png" alt="Bots Join Link">
-   </div>
+    </div>
 
-5\. Paste into you prefer browser.
+5. Paste into you prefer browser.
 
-6\. After loading the page, it will open discord a prompt you to select your personal server of choice
+6. After loading the page, it will open discord a prompt you to select your personal server of choice
 
-   <div style="text-align: center;">
+    <div style="text-align: center;">
       <img src="../assets/tasktwo/tasktwo_p5.png" alt="Join server">
-   </div>
+    </div>
 
-7\. After select the your server, yourl bot will now appear in the server member list as offline
+7. After select the your server, yourl bot will now appear in the server member list as offline
 
-   <div style="text-align: center;">
+    <div style="text-align: center;">
       <img src="../assets/tasktwo/tasktwo_p6.png" alt="Server Member List">
-   </div>
+    </div>
 
 !!! success "Joined the server"
-
-    Your Discord bot should now be visable in your selected server
-=======
->>>>>>> cda12e29a77b8e1608b90103ad0b7e8d97794ef0
 
       Your Discord bot is now visable in your selected server
 
@@ -68,42 +65,31 @@ _The following steps will all be inside one file\*_
 
 ### Steps:
 
-<<<<<<< HEAD
-1. Make a Python file called `test.py` file in VSCode
+1. First, in VSCode let us add a new file to our file and name it `test.py`. To do this, either click on the new file icon, or use the command `crtl + n` to create a new file
 
-2. Inside `test.py`, copy and paste the following code to set up important packages for our code
-=======
-1\. First, in VSCode let us add a new file to our file and name it`python.py`. To do this, either click on the new file icon, or use the command `crtl + n` to create a new file
-
-   <div style="text-align: center;">
+    <div style="text-align: center;">
       <img src="../assets/tasktwo/newFile.png" alt="Server Member List">
-   </div>
+    </div>
 
-<br>
 
-### Copy the following code into your `python.py`:
 
-2\. Helps set up important packages we will need for this file
->>>>>>> cda12e29a77b8e1608b90103ad0b7e8d97794ef0
+    !!! info "Follow Instruction" 
+
+        Copy the following code into your `python.py`:
+
+2. Helps set up important packages we will need for this file
 
     ```py
     import discord
     from discord.ext import commands
     ```
 
-<<<<<<< HEAD
 3. Initialize prefix for command in Discord server
-=======
-<br>
-
-3\. Initialize prefix for command in Discord server
->>>>>>> cda12e29a77b8e1608b90103ad0b7e8d97794ef0
 
     ```py
     bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
     ```
 
-<<<<<<< HEAD
 4. Add a code the displays a ready msg from the Discord bot in the terminal
 
     ```py
@@ -113,13 +99,7 @@ _The following steps will all be inside one file\*_
         print('------')
     ```
 
-<<<<<<< HEAD
 5. Implement a simple command program when your Discord bot will reply with `Pong!`
-=======
-<br>
-
-5\. Implement a simple command program when your Discord bot will reply with `Pong!`
->>>>>>> cda12e29a77b8e1608b90103ad0b7e8d97794ef0
 
     ```py
     @bot.command()
@@ -127,13 +107,9 @@ _The following steps will all be inside one file\*_
         await ctx.send('Pong!')
     ```
 
-<<<<<<< HEAD
-6. Implement a simple program that will reply to the user with a `Hello, @user` and ping to.
-=======
 <br>
 
-6\. Implement a simple program that will reply to the user with a `Hello, @user` and ping to.
->>>>>>> cda12e29a77b8e1608b90103ad0b7e8d97794ef0
+6. Implement a simple program that will reply to the user with a `Hello, @user` and ping to.
 
     ```py
     @bot.command()
@@ -141,29 +117,15 @@ _The following steps will all be inside one file\*_
         await ctx.send(f'Hello, {ctx.author.mention}!')
     ```
 
-<<<<<<< HEAD
 7. Replace `YOUR_TOKEN_HERE` with your Discord bot's token to allow the bot to connect to discord server API
-=======
-<br>
-
-7\. Replace `YOUR_TOKEN_HERE` with your Discord bot's token to allow the bot to connect to discord server API
->>>>>>> cda12e29a77b8e1608b90103ad0b7e8d97794ef0
 
     ```py
     bot.run('YOUR_TOKEN_HERE')
     ```
 
-<<<<<<< HEAD
     !!! warning "If token is invalid"
         
         The program crash on compile
-=======
-<br>
-
-!!! warning "If token is invalid"
-
-      The program crash on compile
->>>>>>> cda12e29a77b8e1608b90103ad0b7e8d97794ef0
 
 8. To run the program
 
@@ -188,15 +150,7 @@ _The following steps will all be inside one file\*_
 
 !!! success "Discord Bot's responds"
 
-<<<<<<< HEAD
-    Now your Discord bot will respond to certain commands
-=======
       Now your Discord bot will respond to certain commands
-
-      - [x] How to invite a Discord Bot to your server
-
-      - [x] How to test basic programs with you Discord Bot
->>>>>>> cda12e29a77b8e1608b90103ad0b7e8d97794ef0
 
 ## Conclusion
 
