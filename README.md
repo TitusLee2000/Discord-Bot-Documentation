@@ -1,13 +1,13 @@
 # Overview of Discord Bot Documentation
 ----
 
-Welcome to [Discord Bot Documentation](https://github.com/TitusLee2000/Discord-Bot-Documentation) 
+Welcome to [Discord Bot Documentation](https://tituslee2000.github.io/Discord-Bot-Documentation/) 
 
 The goal of this documentation is to provide you with enough information to build your first Discord Bot. 
 
 This documentation is a collaborative effort by [Timothy Kim](https://github.com/Timothykim21) and [Titus Lee](https://github.com/TitusLee2000/)
 
-## How We Created Our guide
+## How We Created Our Guide
 ----
 Our guide was created using our knowledge of Python to apply key concepts to a Discord bot backend. Throughout the process, we reflected on the challenges we encountered while working with Python, developing a Discord bot, and collaborating on a group project. Our goal was to ensure that our instructions were clear, thorough, and concise, making it easier for others to follow along. We also focused on best practices, troubleshooting common issues.
 
